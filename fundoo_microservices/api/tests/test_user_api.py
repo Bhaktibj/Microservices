@@ -3,7 +3,7 @@ from ..settings import BASE_URL
 import json
 
 
-class TestApi:
+class TestUserApi:
     """ This class is used for testing the all apis"""
 
     def test_register(self):
@@ -40,3 +40,5 @@ class TestApi:
         requests_data = json.dumps(data)
         response = requests.post(url, requests_data)
         return response.status_code == 200
+
+

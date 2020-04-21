@@ -65,7 +65,6 @@ get:
     parameters:
       - name: pk
         in: path
-        required: true
         type: integer
       - name: token
         in: header
@@ -129,7 +128,7 @@ definitions:
 #      is_active:
 #        type: boolean
 
-  Labels:
-    properties:
-      label:
-        type: string
+#  Labels:
+#    properties:
+#      label:
+#        type: string

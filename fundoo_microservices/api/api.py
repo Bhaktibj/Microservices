@@ -13,7 +13,7 @@ Swagger(app)  # import app
 
 
 @app.route('/login/user', methods=['POST'])
-@swag_from('user_swagger.yaml')
+@swag_from('swagger/user_swagger.yaml')
 def login():
     """This api is used create the login api"""
     request_data = preprocess_request(request)  # convert request into dict
@@ -23,7 +23,7 @@ def login():
 
 
 @app.route('/register/user', methods=['POST'])
-@swag_from('user_swagger.yaml')
+@swag_from('swagger/user_swagger.yaml')
 def register():
     """ This api is used to register the user"""
     request_data = preprocess_request(request)  # convert request into dictionary
@@ -34,7 +34,7 @@ def register():
 
 
 @app.route('/activate/<token>', methods=['GET'])
-@swag_from('user_swagger.yaml')
+@swag_from('swagger/user_swagger.yaml')
 def activate(token):
     """ This api is used to activate the user registration"""
     request_data = {'token': token}  # token in dict
@@ -44,7 +44,7 @@ def activate(token):
 
 
 @app.route('/forgot/password', methods=['POST'])
-@swag_from('user_swagger.yaml')
+@swag_from('swagger/user_swagger.yaml')
 def forgot():
     """ This api is used to forgot password"""
     request_data = preprocess_request(request)  # pre process request
@@ -54,7 +54,7 @@ def forgot():
 
 
 @app.route('/reset/<string:token>', methods=['PUT'])
-@swag_from('user_swagger.yaml')
+@swag_from('swagger/user_swagger.yaml')
 def reset(token):
     """ This api is used to reset the password"""
     request_data = preprocess_request(request)  # pre- process request
@@ -65,7 +65,7 @@ def reset(token):
 
 
 @app.route('/create/note', methods=['POST'])
-@swag_from('note_swagger.yml')
+@swag_from('swagger/note_swagger.yaml')
 def create_note():
     """This method is used to create the note"""
     request_data = preprocess_request(request)  # convert request into dictionary
@@ -78,7 +78,7 @@ def create_note():
 
 
 @app.route('/delete/note/<int:pk>', methods=['DELETE'])
-@swag_from('note_swagger.yml')
+@swag_from('swagger/note_swagger.yaml')
 def delete(pk):
     """ This api is used to delete the note"""
     token = request.headers['token']  # request the token from header
@@ -92,7 +92,7 @@ def delete(pk):
 
 
 @app.route('/read/note/<int:pk>', methods=['GET'])
-@swag_from('note_swagger.yml')
+@swag_from('swagger/note_swagger.yaml')
 def read_note(pk):
     """ This method is used to read the notes"""
     request_data = {'id': pk}
@@ -102,7 +102,7 @@ def read_note(pk):
 
 
 @app.route('/update/note/<int:pk>', methods=['PUT'])
-@swag_from('note_swagger.yml')
+@swag_from('swagger/note_swagger.yaml')
 def put(pk):
     request_data = preprocess_request(request)  # convert request into dict
     token = request.headers['token']  # get token from request headers
@@ -110,16 +110,57 @@ def put(pk):
     request_data['created_by'] = payload.get('var')  # get created_by token
     with ClusterRpcProxy(HOST_CONFIG) as rpc:
         result = rpc.noteService.update_note_service(request_data, pk)  # call the update note service
-    return {'response': result} # return response
+    return {'response': result}  # return response
 
 
 @app.route('/list/note', methods=['GET'])
-@swag_from('note_swagger.yml')
+@swag_from('swagger/note_swagger.yaml')
 def list_note():
     """ This api is used to list of notes"""
     with ClusterRpcProxy(HOST_CONFIG) as rpc:
         result = rpc.noteService.list_note_service()  # call teh list note service
-        return {'response': result} # return the response
+        return {'response': result}  # return the response
+
+
+@app.route('/create/label', methods=['POST'])
+@swag_from('swagger/label_swagger.yaml')
+def create_label():
+    """This api is used to create the label"""
+    request_data = preprocess_request(request)  # convert request into dict
+    with ClusterRpcProxy(HOST_CONFIG) as rpc:
+        result = rpc.noteService.create_label_service(request_data)  # call teh create label service
+        return {'response': result}  # return the response
+
+
+@app.route('/read/label/<int:pk>', methods=['GET'])
+@swag_from('swagger/label_swagger.yaml')
+def read_label(pk):
+    """ This method is used to read the label"""
+    request_data = {'id': pk}
+    with ClusterRpcProxy(HOST_CONFIG) as rpc:
+        result = rpc.noteService.read_label_service(request_data)  # call read activate service
+        return {'response': result}  # return response
+
+
+@app.route('/delete/label/<int:pk>', methods=['DELETE'])
+@swag_from('swagger/label_swagger.yaml')
+def delete_label(pk):
+    """ This method is used to read the label"""
+    request_data = {'id': pk}
+    with ClusterRpcProxy(HOST_CONFIG) as rpc:
+        result = rpc.noteService.delete_label_service(request_data)  # call label delete service
+        return {'response': result}  # return response
+
+
+@app.route('/update/label/<int:pk>', methods=['PUT'])
+@swag_from('swagger/label_swagger.yaml')
+def update_label(pk):
+    """ This method is used to read the label"""
+    request_data = preprocess_request(request)  # convert request into dict
+    print("=============================>,", request_data)
+    with ClusterRpcProxy(HOST_CONFIG) as rpc:
+        result = rpc.noteService.update_label_service(request_data, pk)  # call read activate service
+    return {'response': result}  # return response
 
 
 if __name__ == '__main__':
