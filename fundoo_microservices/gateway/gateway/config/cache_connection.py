@@ -1,6 +1,6 @@
 import redis
 from ...settings import CACHE
-
+import logging
 
 class CacheService:
     """ This cache service class is to store the data into cache"""
@@ -13,9 +13,11 @@ class CacheService:
         try:
             connection = redis.Redis(host=CACHE.get('host'), port=CACHE.get('port'), password=CACHE.get('password'),
                                      db=CACHE.get('db'), decode_responses=True)  # create redis cache connection using extra args
-            print("====================> cache is connected: {}".format(connection))
+            logging.debug(connection)
+            logging.info("====================> cache is connected: {}".format(connection))
             return connection  # return the connection
         except:
+            logging.error("something went wrong - in cache connection")
             return False  # it returns false
 
     def set_key(self, key, value):
