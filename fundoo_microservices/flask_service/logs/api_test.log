@@ -1,0 +1,125 @@
+[2020-04-28 16:51:27,104|INF] Flask app is started
+[2020-04-28 16:51:27,629|WAR]  * Debugger is active!
+[2020-04-28 16:51:27,639|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 16:51:27,711|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 17:00:04,334|INF] Flask app is started
+[2020-04-28 17:00:04,485|INF]  * Restarting with stat
+[2020-04-28 17:00:09,606|INF] Flask app is started
+[2020-04-28 17:00:09,709|WAR]  * Debugger is active!
+[2020-04-28 17:00:09,714|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 17:00:09,749|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 17:12:45,920|INF]  * Detected change in 'C:\\Users\\ADMIN\\PycharmProjects\\Python_Microservices\\fundoo_microservices\\api\\config_logger.py', reloading
+[2020-04-28 17:12:46,086|INF]  * Restarting with stat
+[2020-04-28 17:12:51,256|DEB] micro_jwt
+[2020-04-28 17:12:51,273|INF] Flask app is started
+[2020-04-28 17:12:51,391|WAR]  * Debugger is active!
+[2020-04-28 17:12:51,397|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 17:12:51,432|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 17:14:52,722|INF] Flask app is started
+[2020-04-28 17:14:52,855|INF]  * Restarting with stat
+[2020-04-28 17:14:57,476|INF] Flask app is started
+[2020-04-28 17:14:57,571|WAR]  * Debugger is active!
+[2020-04-28 17:14:57,576|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 17:14:57,606|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 17:17:44,408|INF]  * Detected change in 'C:\\Users\\ADMIN\\PycharmProjects\\Python_Microservices\\fundoo_microservices\\api\\common\\utils.py', reloading
+[2020-04-28 17:17:44,605|INF]  * Restarting with stat
+[2020-04-28 17:17:49,674|INF] Flask app is started
+[2020-04-28 17:17:49,796|WAR]  * Debugger is active!
+[2020-04-28 17:17:49,801|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 17:17:49,834|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 17:27:04,477|INF]  * Detected change in 'C:\\Users\\ADMIN\\PycharmProjects\\Python_Microservices\\fundoo_microservices\\api\\settings.py', reloading
+[2020-04-28 17:27:04,634|INF]  * Restarting with stat
+[2020-04-28 17:27:30,133|DEB] http://127.0.0.1:5000
+[2020-04-28 17:27:30,184|DEB] http://127.0.0.1:5000/create/note
+[2020-04-28 17:27:30,185|DEB] {"title": "Note Ten", "description": "This is ten note", "color": "red", "is_deleted": false, "is_archived": false, "is_trashed": false, "is_pinned": false, "is_restored": false, "label": 2}
+[2020-04-28 17:27:30,243|DEB] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-04-28 17:27:33,039|DEB] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-04-28 17:27:34,771|DEB] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-04-28 17:27:36,575|DEB] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-04-28 17:27:38,534|DEB] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-04-28 18:01:45,468|INF]  * Restarting with stat
+[2020-04-28 18:01:48,740|WAR]  * Debugger is active!
+[2020-04-28 18:01:48,743|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 18:01:48,764|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 18:01:53,829|INF] 127.0.0.1 - - [28/Apr/2020 18:01:53] "[33mGET / HTTP/1.1[0m" 404 -
+[2020-04-28 18:01:58,890|INF] 127.0.0.1 - - [28/Apr/2020 18:01:58] "[37mGET /apidocs/ HTTP/1.1[0m" 200 -
+[2020-04-28 18:02:01,170|INF] 127.0.0.1 - - [28/Apr/2020 18:02:01] "[35m[1mGET /apispec_1.json HTTP/1.1[0m" 500 -
+[2020-04-28 18:03:53,926|INF]  * Detected change in 'C:\\Users\\ADMIN\\PycharmProjects\\Python_Microservices\\fundoo_microservices\\flask_service\\api\\views\\views.py', reloading
+[2020-04-28 18:03:54,080|INF]  * Restarting with stat
+[2020-04-28 18:04:00,041|WAR]  * Debugger is active!
+[2020-04-28 18:04:00,047|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 18:04:00,081|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 18:04:01,422|INF] 127.0.0.1 - - [28/Apr/2020 18:04:01] "[37mGET /apidocs/ HTTP/1.1[0m" 200 -
+[2020-04-28 18:04:03,866|INF] 127.0.0.1 - - [28/Apr/2020 18:04:03] "[35m[1mGET /apispec_1.json HTTP/1.1[0m" 500 -
+[2020-04-28 18:04:03,868|INF] 127.0.0.1 - - [28/Apr/2020 18:04:03] "[37mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 200 -
+[2020-04-28 18:04:45,876|INF]  * Restarting with stat
+[2020-04-28 18:04:51,368|WAR]  * Debugger is active!
+[2020-04-28 18:04:51,374|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 18:04:51,422|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 18:05:34,940|INF]  * Detected change in 'C:\\Users\\ADMIN\\PycharmProjects\\Python_Microservices\\fundoo_microservices\\flask_service\\server.py', reloading
+[2020-04-28 18:05:39,044|INF] 127.0.0.1 - - [28/Apr/2020 18:05:39] "[37mGET /apidocs/ HTTP/1.1[0m" 200 -
+[2020-04-28 18:06:19,409|INF] 127.0.0.1 - - [28/Apr/2020 18:06:19] "[37mGET /apidocs/ HTTP/1.1[0m" 200 -
+[2020-04-28 18:07:04,121|INF]  * Restarting with stat
+[2020-04-28 18:07:59,533|INF]  * Restarting with stat
+[2020-04-28 18:08:05,609|WAR]  * Debugger is active!
+[2020-04-28 18:08:05,615|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 18:08:05,679|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 18:08:11,641|INF] 127.0.0.1 - - [28/Apr/2020 18:08:11] "[37mGET /apidocs/ HTTP/1.1[0m" 200 -
+[2020-04-28 18:08:14,123|INF] 127.0.0.1 - - [28/Apr/2020 18:08:14] "[37mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 200 -
+[2020-04-28 18:08:14,168|INF] 127.0.0.1 - - [28/Apr/2020 18:08:14] "[35m[1mGET /apispec_1.json HTTP/1.1[0m" 500 -
+[2020-04-28 18:09:43,783|INF]  * Detected change in 'C:\\Users\\ADMIN\\PycharmProjects\\Python_Microservices\\fundoo_microservices\\flask_service\\api\\views\\views.py', reloading
+[2020-04-28 18:09:43,940|INF]  * Restarting with stat
+[2020-04-28 18:09:49,790|WAR]  * Debugger is active!
+[2020-04-28 18:09:49,797|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 18:09:49,826|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 18:09:52,297|INF] 127.0.0.1 - - [28/Apr/2020 18:09:52] "[37mGET /apidocs/ HTTP/1.1[0m" 200 -
+[2020-04-28 18:09:52,893|INF] 127.0.0.1 - - [28/Apr/2020 18:09:52] "[37mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 200 -
+[2020-04-28 18:09:53,009|INF] 127.0.0.1 - - [28/Apr/2020 18:09:53] "[35m[1mGET /apispec_1.json HTTP/1.1[0m" 500 -
+[2020-04-28 18:10:20,218|INF]  * Detected change in 'C:\\Users\\ADMIN\\PycharmProjects\\Python_Microservices\\fundoo_microservices\\flask_service\\api\\views\\views.py', reloading
+[2020-04-28 18:10:20,361|INF]  * Restarting with stat
+[2020-04-28 18:10:26,464|WAR]  * Debugger is active!
+[2020-04-28 18:10:26,469|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 18:10:26,505|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 18:10:58,926|INF] 127.0.0.1 - - [28/Apr/2020 18:10:58] "[37mGET /apidocs/ HTTP/1.1[0m" 200 -
+[2020-04-28 18:11:06,044|INF] 127.0.0.1 - - [28/Apr/2020 18:11:06] "[37mGET /apidocs/ HTTP/1.1[0m" 200 -
+[2020-04-28 18:12:51,781|INF]  * Restarting with stat
+[2020-04-28 18:12:57,423|WAR]  * Debugger is active!
+[2020-04-28 18:12:57,428|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 18:12:57,482|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 18:13:00,843|INF] 127.0.0.1 - - [28/Apr/2020 18:13:00] "[37mGET /apidocs/ HTTP/1.1[0m" 200 -
+[2020-04-28 18:13:02,790|INF] 127.0.0.1 - - [28/Apr/2020 18:13:02] "[37mGET /apispec_1.json HTTP/1.1[0m" 200 -
+[2020-04-28 18:13:02,854|INF] 127.0.0.1 - - [28/Apr/2020 18:13:02] "[37mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 200 -
+[2020-04-28 18:13:38,416|INF]  * Restarting with stat
+[2020-04-28 18:13:42,106|WAR]  * Debugger is active!
+[2020-04-28 18:13:42,111|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 18:13:42,132|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2020-04-28 18:13:48,055|INF] 127.0.0.1 - - [28/Apr/2020 18:13:48] "[37mGET /apidocs/ HTTP/1.1[0m" 200 -
+[2020-04-28 18:13:48,492|INF] 127.0.0.1 - - [28/Apr/2020 18:13:48] "[37mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 200 -
+[2020-04-28 18:13:49,051|INF] 127.0.0.1 - - [28/Apr/2020 18:13:49] "[37mGET /apispec_1.json HTTP/1.1[0m" 200 -
+[2020-04-28 18:14:11,621|INF] <Request 'http://127.0.0.1:5000/read/note/1' [GET]>
+[2020-04-28 18:14:11,731|DEB] Start from server, version: 0.9, properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'rabbit@ADMIN-PC', 'copyright': 'Copyright (c) 2007-2020 Pivotal Software, Inc.', 'information': 'Licensed under the MPL 1.1. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 22.3', 'product': 'RabbitMQ', 'version': '3.8.3'}, mechanisms: [b'AMQPLAIN', b'PLAIN'], locales: ['en_US']
+[2020-04-28 18:14:11,738|DEB] using channel_id: 1
+[2020-04-28 18:14:11,744|DEB] Channel open
+[2020-04-28 18:14:12,200|DEB] <nameko.standalone.rpc.ClusterProxy object at 0x0000000004D3CAC8>
+[2020-04-28 18:14:12,202|DEB] invoking <proxy method: noteService.read_note_service>
+[2020-04-28 18:14:12,268|DEB] Start from server, version: 0.9, properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'rabbit@ADMIN-PC', 'copyright': 'Copyright (c) 2007-2020 Pivotal Software, Inc.', 'information': 'Licensed under the MPL 1.1. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 22.3', 'product': 'RabbitMQ', 'version': '3.8.3'}, mechanisms: [b'AMQPLAIN', b'PLAIN'], locales: ['en_US']
+[2020-04-28 18:14:12,274|DEB] using channel_id: 1
+[2020-04-28 18:14:12,285|DEB] Channel open
+[2020-04-28 18:14:12,342|DEB] Waiting for RPC reply event <nameko.rpc.RpcReply object at 0x0000000004CF2F28>
+[2020-04-28 18:14:12,628|DEB] RPC reply event complete <nameko.rpc.RpcReply object at 0x0000000004CF2F28> {'result': {'message': 'read note successfully', 'data': {'color': 'Blue', 'created_at': None, 'created_by': 'admin1@gmail.com', 'description': 'This is first Note', 'id': 1, 'is_archived': False, 'is_deleted': False, 'is_pinned': False, 'is_restored': False, 'is_trashed': False, 'label': 3, 'title': 'First Note', 'updated_at': None}}, 'error': None}
+[2020-04-28 18:14:12,660|DEB] Closed channel #1
+[2020-04-28 18:14:12,664|INF] 127.0.0.1 - - [28/Apr/2020 18:14:12] "[37mGET /read/note/1 HTTP/1.1[0m" 200 -
+[2020-04-28 18:16:13,286|INF]  * Detected change in 'C:\\Users\\ADMIN\\PycharmProjects\\Python_Microservices\\fundoo_microservices\\flask_service\\settings.py', reloading
+[2020-04-28 18:16:13,518|INF]  * Restarting with stat
+[2020-04-28 18:16:19,346|DEB] http://127.0.0.1:5000
+[2020-04-28 18:16:19,380|DEB] http://127.0.0.1:5000/create/note
+[2020-04-28 18:16:19,381|DEB] {"title": "Note Ten", "description": "This is ten note", "color": "red", "is_deleted": false, "is_archived": false, "is_trashed": false, "is_pinned": false, "is_restored": false, "label": 2}
+[2020-04-28 18:16:19,390|DEB] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-04-28 18:16:22,105|DEB] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-04-28 18:16:23,889|DEB] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-04-28 18:16:25,829|DEB] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-04-28 18:16:27,612|DEB] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-04-28 18:18:34,496|INF]  * Restarting with stat
+[2020-04-28 18:18:40,060|WAR]  * Debugger is active!
+[2020-04-28 18:18:40,067|INF]  * Debugger PIN: 197-614-516
+[2020-04-28 18:18:40,124|INF]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

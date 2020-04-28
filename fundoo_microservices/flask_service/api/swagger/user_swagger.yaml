@@ -1,0 +1,69 @@
+tags:
+    - name: Users
+schemes:
+  - http
+paths:
+post:
+  /register/user:
+  tags:
+    - Users
+  summary: create user
+  description: create user flask_service
+  parameters:
+    - name: body
+      in: body
+      schema:
+        $ref: "#/definitions/Users"
+responses:
+  200:
+    description:
+      Result
+
+/reset/{token}:
+put:
+  tags:
+    - Users
+  summary: reset user password
+  description: create reset password user flask_service
+  parameters:
+    - name: token
+      in: path
+      type: string
+    - name: body
+      in: body
+      schema:
+         $ref: "#/definitions/Users"
+  responses:
+    200:
+      description:
+        Result
+get:
+  tags:
+    - Users
+  summary: reset user password
+  description: create reset password user flask_service
+  parameters:
+    - name: token
+      in: path
+      type: string
+  responses:
+    200:
+      description:
+        Result
+definitions:
+  Users:
+    properties:
+      first_name:
+        type: string
+      last_name:
+        type: string
+      email:
+        type: string
+      password:
+        type: string
+      phone_numbar:
+        type: string
+      is_active:
+        type: boolean
+      new_password:
+        type: string
