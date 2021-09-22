@@ -16,7 +16,7 @@ click==7.1.1
 colorama==0.4.3
 cryptography==2.9
 distlib==0.3.0
-Django==3.0.5
+Django==3.1.13
 django-class==2019.4.13
 dnspython==1.16.0
 docker==4.2.0
